@@ -1,0 +1,21 @@
+/* Importing Belleza from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Belleza&display=swap');
+
+/* Importing Google Fonts for Manjari Thin and Bold */
+@import url('https://fonts.googleapis.com/css2?family=Manjari:wght@100;700&display=swap');
+
+h1, h2, h3 { color: #545454; font-family: 'Belleza', sans-serif; }
+
+p { font-family: 'Manjari', sans-serif; }
+
+.normal-link 
+{
+    text-decoration: none;
+    color: #545454;
+    transition: color 0.3s ease;
+}
+
+.normal-link:hover 
+{
+    color: #7ed957;
+}

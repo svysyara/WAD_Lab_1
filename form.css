@@ -1,0 +1,71 @@
+/* Importing Google Fonts for Manjari Thin and Bold */
+@import url('https://fonts.googleapis.com/css2?family=Manjari:wght@100;700&display=swap');
+
+body 
+{
+    font-family: 'Manjari', sans-serif;
+    background-color: #eaeaeafa; 
+    padding: 20px;
+}
+
+form 
+{
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #f0f0f0;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+input[type="text"],
+input[type="date"],
+input[type="email"],
+input[type="password"], 
+textarea[type="text"]
+{
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+input[type="submit"]
+{
+    padding: 5px 10px;    
+    margin-bottom: 15px;
+    border: 2px solid #ccc;
+    border-radius: 0px;
+    font-size: 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #008037;
+    color: #ffffff;
+}
+
+input[type="submit"]:hover
+{
+    background-color: #7ed957;
+}
+
+/*
+div 
+{
+    background-color: #4caf50;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    color: white;
+    margin-right: 10px;
+}
+
+div:hover 
+{
+    background-color: #45a049;
+}
+*/
+  
